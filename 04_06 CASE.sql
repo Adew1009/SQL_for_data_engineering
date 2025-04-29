@@ -7,3 +7,5 @@ case
  End as ProductType
 
 from products
+
+Case expression used to evaluate a list of conditions and return a result 
