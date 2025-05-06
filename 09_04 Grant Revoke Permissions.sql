@@ -12,3 +12,12 @@ revoke select, insert on customer from john1
 -- This will revoke select and insert permission on the customer table from the john1 role. 
 revoke all on customer from john1
 -- This will revoke all permissions on the customer table from the john1 role.
+
+
+-- !Create Role and add permission
+create role bob with login password 'bob@123'
+-- This will create a new role called bob.
+
+grant select on product to bob
+-- This will grant select permission on the customer table to the bob role.
+
