@@ -28,6 +28,6 @@ FROM
 GROUP BY
     ClaimMonth
 ORDER BY
-    ClaimMonth;
+    ClaimMonth;  
 
 
